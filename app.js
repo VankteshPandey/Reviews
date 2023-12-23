@@ -24,7 +24,7 @@ const main = async () => {
     const restaurants = {};
 
     reviewsData.forEach(({ review }) => {
-      const restaurantName = review.userName; // Assuming 'userName' represents the restaurant name
+      const restaurantName = review.userName; 
       const rating = review.rating;
 
       if (!restaurants[restaurantName]) {
